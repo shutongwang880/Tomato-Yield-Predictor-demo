@@ -75,7 +75,7 @@ $env:MAVEN_USER_HOME="C:\demo\.m2"
 From the project root:
 
 ```powershell
-cd C:\demo
+cd your workspace
 .\start-services.cmd
 ```
 

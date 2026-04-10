@@ -31,3 +31,55 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Java / Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+.m2/
+
+# Spring Boot
+*.class
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python
+model_service/.venv/
+model_service/__pycache__/
+model_service/*.pyc
+model_service/*.pyo
+model_service/*.pyd
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# Archives / installers
+*.zip
+*.exe
+*.msi
+
+# Project-specific generated/static build copies
+src/main/resources/static/assets/
+
+# Optional: if you only want to keep frontend source,
+# ignore copied static entry too
+# src/main/resources/static/index.html
