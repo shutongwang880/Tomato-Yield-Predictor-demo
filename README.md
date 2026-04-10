@@ -204,6 +204,3 @@ Do not upload generated or local-only files such as:
 
 If needed, delete them before pushing.
 
-## License
-
-Add your license here before publishing.
